@@ -50,6 +50,9 @@ public class AlwaysTime extends JavaPlugin{
                 p.sendMessage("Insufficient Permissions!");
                 Bukkit.getLogger().info(p.getName() + "Tried to use always night command!");
             }            
+        }else if (commandLabel.equalsIgnoreCase("alwaystimecancel")){
+            Bukkit.getScheduler().cancelTask(Day);
+            Bukkit.getScheduler().cancelTask(Night);
         }
         return false; //Error - if a / With a space is casted, it just does nothing.
     }
