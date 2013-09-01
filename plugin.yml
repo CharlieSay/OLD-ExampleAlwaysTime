@@ -4,3 +4,4 @@ version: 1.0
 commands:
   alwaysday:
   alwaysnight:
+  alwaystimecancel:
