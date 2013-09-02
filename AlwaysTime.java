@@ -1,3 +1,6 @@
+//This is used for teaching people aswell as being a generic plugin on BukkitPlugins.
+//Sorry for the excess amount of annotation if you are from BukkitPlugins.
+
 package alwaystime;
 
 import org.bukkit.Bukkit;
