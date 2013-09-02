@@ -42,7 +42,7 @@ public class AlwaysTime extends JavaPlugin{
          }else{
                 p.sendMessage("Insufficient Permissions!"); //If player doesnt have AlwaysTime.Change perm, reverts.
                 Bukkit.getLogger().info(p.getName() + "Tried to use always night command!"); //Logs the incident for admin usage
-                Bukkit.getLogger().info("If this is a problem and you are op, make sure the perm 'AlwaysTime.Change' is in your perms config!")
+                Bukkit.getLogger().info("If this is a problem and you are op, make sure the perm 'AlwaysTime.Change' is in your perms config!");
             }
         }else if (commandLabel.equalsIgnoreCase("alwaysnight")){ //Repeat of above just with day time
             if (p.hasPermission("AlwaysTime.Change")){
