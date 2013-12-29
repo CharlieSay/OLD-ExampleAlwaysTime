@@ -1,0 +1,7 @@
+name: alwaystime
+main: alwaystime.AlwaysTime
+version: 1.0
+commands:
+  alwaysday:
+  alwaysnight:
+  alwaystimecancel:
